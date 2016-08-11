@@ -1,5 +1,4 @@
-/* global fetch */
-
+var fetch = require('node-fetch')
 var baseUrl = 'https://www.cryptocompare.com/api/data/'
 
 function fetchJSON (url) {

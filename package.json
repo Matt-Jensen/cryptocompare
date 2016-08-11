@@ -7,7 +7,6 @@
     "url": "https://github.com/exodusmovement/cryptocompare/issues"
   },
   "devDependencies": {
-    "node-fetch": "^1.5.3",
     "standard": "*",
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0"
@@ -30,5 +29,8 @@
     "lint": "standard",
     "test": "npm run lint && npm run unit",
     "unit": "tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "node-fetch": "^1.6.0"
   }
 }
